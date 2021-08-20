@@ -2,10 +2,7 @@ body{
   margin: 0px;
   padding: 0px;
   background-image: radial-gradient(#c7c7c7 25%, #c7c7c7 74%);
-  font-family: system-ui;
 }
-
-
 
 .clearfix {
   clear: both;
@@ -20,7 +17,7 @@ body{
 }
 
 .top-section{
-  background-color: #151b29;
+  background-color: #11794d;
   padding: 20px;
   text-align: center;
 
@@ -39,11 +36,8 @@ body{
   margin-top: 10px;
 }
 
-.p1 span {
-  font-weight: 100;
-  color: #c7c7c7;
-}
 
+ */
 .p2{
   font-size: 20px;
   color: #c7c7c7;
@@ -74,14 +68,21 @@ body{
 }
 
 .head{
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(42, 165, 42, 0.582);
+ 
 }
 
 .p3{
-  color: #c7c7c7;
+  color: black;
   margin-bottom: -5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+
 }
 
 .fa{
@@ -99,15 +100,22 @@ body{
 
 
 .skills li span {
-  color: #969595;
+  color:  black;
 }
 
 .p-4 {
   font-size: 14px;
-  color: #969595;
+  color: black;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Logo {
   width: 50px;
+  height: 50px;
   border-radius: 50%;
+ 
+}
+
+.fonts {
+  color: #130202;
 }
