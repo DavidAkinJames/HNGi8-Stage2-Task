@@ -126,13 +126,3 @@ body{
   color: #130202;
 }
 
-@media all and (max-width: 760px) {
-  .main{
-      min-height: calc(100vh - 56px);
-      height: auto;
-  }
-
-
-
- 
-}
